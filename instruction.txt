@@ -1,0 +1,5 @@
+新建user_provider.proto接口文件后
+在终端项目目录下执行：mvn -DskipTests=true compile
+然后在如下目录下发现：
+target/generated-sources/protobuf/grpc-java/cn/lpe234/grpc/grpcdemo/grpc/UserProviderGrpc.java
+target/generated-sources/protobuf/java/cn/lpe234/grpc/grpcdemo/grpc/UserProviderOuterClass.java
